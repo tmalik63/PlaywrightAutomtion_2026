@@ -1,0 +1,20 @@
+{
+  "name": "playwrightautomtion_2026",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "bingTest": "npx playwright test src/test/Day1_061626/T1_BingSearch.spec.ts --headed --workers=1 --project=chrome --reporter=html",
+    "actionItem1": "npx playwright test src/test/Action_Items/ActionItem1.spec.ts --headed --workers=1 --project=chrome --reporter=html",
+    "mouseHoverTest": "npx playwright test src/test/Day1_061626/T2_MouseHover.spec.ts --headed --workers=1 --project=chrome --reporter=html",
+    "bingLoop":"npx playwright test src/test/Day2_062226/T2_BingSearch_Loop.spec.ts --headed --workers=1 --project=chrome --reporter=html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.61.0",
+    "@types/node": "^25.9.3"
+  }
+}
