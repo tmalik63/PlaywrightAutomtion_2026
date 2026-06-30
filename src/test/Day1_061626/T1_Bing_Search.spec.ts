@@ -9,5 +9,6 @@ let searchResults = await page.locator("//*[@class='sb_count']").textContent();
 let arrayResults = searchResults?.split(' ');
 console.log("Total Search Results: " + arrayResults?.[1]);
 
+//testing 
 
 });
