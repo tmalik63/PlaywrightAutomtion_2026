@@ -19,9 +19,8 @@ jobs:
       run: npx playwright install --with-deps
     - name: Run Parallel Tests
       run: npm run ParallelTestHeadless
-      name: Run USPS Test
+    - name: Run USPS Test
       run: npm run mouseHoverTestHeadless
-
     - uses: actions/upload-artifact@v4
       if: ${{ !cancelled() }}
       with:
