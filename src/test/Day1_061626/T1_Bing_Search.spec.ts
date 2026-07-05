@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test } from '@playwright/test';
 
 test('bing search test', async ({ page }) => {
     await page.goto('https://www.bing.com/');

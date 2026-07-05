@@ -1,6 +1,7 @@
 import test from "@playwright/test";
 
 test("Bing searches with multiple keywords", async ({ page }) => {
+      test.setTimeout(120000); // 2 minutes
 
     let cars = Array<string>();
     cars.push("AMG");
@@ -13,7 +14,7 @@ test("Bing searches with multiple keywords", async ({ page }) => {
         await page.locator("//*[@name='q']").fill(cars[i]);
         await page.waitForTimeout(2500);
         await page.locator("//*[@name='q']").press('Enter');
-        await page.waitForTimeout(2500);
+        await page.waitForTimeout(5000);
         let searchResults = await page.locator("//*[@class='sb_count']").textContent();
         let arrayResults = searchResults?.split(' ');
         console.log("Total Search Results for " + cars[i] + ": " + arrayResults?.[1]);

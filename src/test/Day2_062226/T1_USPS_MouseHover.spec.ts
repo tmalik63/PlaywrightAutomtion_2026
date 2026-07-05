@@ -1,4 +1,4 @@
-import test, { expect } from "@playwright/test";
+import test from "@playwright/test";
 
 test("USPS Mouse Hover Test", async ({ page }) => {
     // Navigate to the USPS website
