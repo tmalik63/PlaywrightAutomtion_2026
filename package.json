@@ -7,12 +7,13 @@
     "bingTest": "npx playwright test src/test/Day1_061626/T1_Bing_Search.spec.ts --headed --workers=1 --project=chrome --reporter=html",
     "bingTestHeadless": "npx playwright test src/test/Day1_061626/T1_Bing_Search.spec.ts --workers=1 --project=chrome --reporter=html",
     "mouseHoverTest": "npx playwright test src/test/Day2_062226/T1_USPS_MouseHover.spec.ts --headed --workers=1 --project=chrome --reporter=html",
-   "mouseHoverTestHeadless": "npx playwright test src/test/Day2_062226/T1_USPS_MouseHover.spec.ts --workers=1 --project=chrome --reporter=html",
-   "BingSearchLoopTest": "npx playwright test src/test/Day2_062226/T2_BingSearch_Loop.spec.ts --headed --workers=1 --project=chrome --reporter=html",
-   "BingSearchLoopTestHeadless": "npx playwright test src/test/Day2_062226/T2_BingSearch_Loop.spec.ts --workers=1 --project=chrome --reporter=html",
-   "ParallelTest": "npx playwright test src/test/Day2_062226/.* --headed --workers=2 --project=chrome --reporter=html",
-   "ParallelTestHeadless": "npx playwright test src/test/Day2_062226/.* --workers=2 --project=chrome --reporter=html"
-
+    "mouseHoverTestHeadless": "npx playwright test src/test/Day2_062226/T1_USPS_MouseHover.spec.ts --workers=1 --project=chrome --reporter=html",
+    "BingSearchLoopTest": "npx playwright test src/test/Day2_062226/T2_BingSearch_Loop.spec.ts --headed --workers=1 --project=chrome --reporter=html",
+    "BingSearchLoopTestHeadless": "npx playwright test src/test/Day2_062226/T2_BingSearch_Loop.spec.ts --workers=1 --project=chrome --reporter=html",
+    "ParallelTest": "npx playwright test src/test/Day2_062226/.* --headed --workers=2 --project=chrome --reporter=html",
+    "ParallelTestHeadless": "npx playwright test src/test/Day2_062226/.* --workers=2 --project=chrome --reporter=html",
+    "DisneyTitleTest": "npx playwright test src/test/ActionItems/Disney_VerifyTitle.spec.ts --headed --workers=1 --project=chrome --reporter=html",
+    "BingReusableTest": "npx playwright test src/test/Day3_072926/BingSearch_ReuseableConcept.spec.ts --headed --workers=1 --project=chrome --reporter=html"
   },
   "keywords": [],
   "author": "",
